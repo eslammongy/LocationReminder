@@ -1,11 +1,13 @@
 # Android NanoDegree Location Reminders
 
-![](screenshots/Screenshot_20230123_012906.png)
-![](screenshots/Screenshot_20230123_012920.png)
-![](screenshots/Screenshot_20230123_012933.png)
-![](screenshots/Screenshot_20230123_013025.png)
-![](screenshots/Screenshot_20230123_013030.png)
-![](screenshots/Screenshot_20230123_013100.png)
+![](screenshots/Screenshot_20230123_132642.png)
+![](screenshots/Screenshot_20230123_132653.png)
+![](screenshots/Screenshot_20230123_132706.png)
+![](screenshots/Screenshot_20230123_132715.png)
+![](screenshots/Screenshot_20230123_132732.png)
+![](screenshots/Screenshot_20230123_132742.png)
+![](screenshots/Screenshot_20230123_133200.png)
+![](screenshots/Screenshot_20230123_133011.png)
 
 
 This project is part of the [Andrlid Kotlin Developer Nanodegree] from Udacity.

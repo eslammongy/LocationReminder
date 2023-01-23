@@ -202,32 +202,7 @@ class SelectLocationFragment : BaseFragment(), OnMapReadyCallback {
             }
         }
 
-        /* Another approach - commented out here for future reference */
-//        val locationCallback = object : LocationCallback() {
-//            override fun onLocationResult(locationResult: LocationResult?) {
-//                super.onLocationResult(locationResult)
-//
-//                locationResult?.run {
-//                    val latLng = LatLng(lastLocation.latitude, lastLocation.longitude)
-//                    map.moveCamera(
-//                        CameraUpdateFactory.newLatLngZoom(
-//                            latLng,
-//                            MapZoomLevel.Streets.level
-//                        )
-//                    )
-//
-//                    addMapMarker(latLng)
-//                }
-//            }
-//        }
-//
-//        with(LocationRequest()) {
-//            priority = LocationRequest.PRIORITY_HIGH_ACCURACY
-//            interval = 0
-//            fastestInterval = 0
-//            val fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(requireContext())
-//            fusedLocationProviderClient.requestLocationUpdates(this, locationCallback, Looper.myLooper())
-//        }
+
     }
 
     override fun onRequestPermissionsResult(
@@ -249,65 +224,4 @@ class SelectLocationFragment : BaseFragment(), OnMapReadyCallback {
         }
     }
 
-    /* Commented out here because location device setting is not required but I can't get it work without
-    device location set to ON. So keep the code here for future reference
-    */
-//    /*
-//    *  Uses the Location Client to check the current state of location settings, and gives the user
-//    *  the opportunity to turn on location services within our app.
-//    */
-//    private fun checkDeviceLocationSettingsAndEnableMapByLocation(resolve:Boolean = true) {
-//
-//        val locationRequest = LocationRequest.create().apply {
-//            priority = LocationRequest.PRIORITY_LOW_POWER
-//        }
-//        val builder = LocationSettingsRequest.Builder().addLocationRequest(locationRequest)
-//        val settingsClient = LocationServices.getSettingsClient(requireActivity())
-//        val locationSettingsResponseTask = settingsClient.checkLocationSettings(builder.build())
-//
-//        locationSettingsResponseTask.addOnFailureListener { exception ->
-//            if (exception is ResolvableApiException && resolve){
-//                try {
-//                    startIntentSenderForResult(
-//                        exception.resolution.intentSender,
-//                        TURN_DEVICE_LOCATION_ON_REQUEST_CODE,
-//                        null,
-//                        0,
-//                        0,
-//                        0,
-//                        null)
-//
-//                } catch (sendEx: IntentSender.SendIntentException) {
-//                    //Log.d(SaveReminderFragment.TAG, "Error getting location settings resolution: " + sendEx.message)
-//                }
-//            } else {
-//                Snackbar.make(
-//                    requireView(),
-//                    R.string.location_required_error, Snackbar.LENGTH_INDEFINITE
-//                ).setAction(android.R.string.ok) {
-//                    checkDeviceLocationSettingsAndEnableMapByLocation()
-//                }.show()
-//            }
-//        }
-//
-//        locationSettingsResponseTask.addOnCompleteListener {
-//            if ( it.isSuccessful ) {
-//                enableMapMyLocation()
-//            }
-//        }
-//    }
-
-    /*
-    *  When we get the result from asking the user to turn on device location, we call
-    *  checkDeviceLocationSettingsAndStartGeofence again to make sure it's actually on, but
-    *  we don't resolve the check to keep the user from seeing an endless loop.
-    */
-//    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-//        super.onActivityResult(requestCode, resultCode, data)
-//
-//        super.onActivityResult(requestCode, resultCode, data)
-//        if (requestCode == TURN_DEVICE_LOCATION_ON_REQUEST_CODE) {
-//            checkDeviceLocationSettingsAndEnableMapByLocation(false)
-//        }
-//    }
 }

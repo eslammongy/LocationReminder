@@ -3,11 +3,17 @@ package com.udacity.project4.locationreminders.data.local;
 import androidx.room.DatabaseConfiguration;
 import androidx.room.InvalidationTracker;
 import androidx.room.RoomOpenHelper;
+import androidx.room.RoomOpenHelper.Delegate;
+import androidx.room.RoomOpenHelper.ValidationResult;
 import androidx.room.util.DBUtil;
 import androidx.room.util.TableInfo;
+import androidx.room.util.TableInfo.Column;
+import androidx.room.util.TableInfo.ForeignKey;
+import androidx.room.util.TableInfo.Index;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 import androidx.sqlite.db.SupportSQLiteOpenHelper;
-
+import androidx.sqlite.db.SupportSQLiteOpenHelper.Callback;
+import androidx.sqlite.db.SupportSQLiteOpenHelper.Configuration;
 import java.lang.Override;
 import java.lang.String;
 import java.lang.SuppressWarnings;
@@ -82,7 +88,7 @@ public final class RemindersDatabase_Impl extends RemindersDatabase {
         final TableInfo _infoReminders = new TableInfo("reminders", _columnsReminders, _foreignKeysReminders, _indicesReminders);
         final TableInfo _existingReminders = TableInfo.read(_db, "reminders");
         if (! _infoReminders.equals(_existingReminders)) {
-          return new RoomOpenHelper.ValidationResult(false, "reminders(com.eslammongy.locationreminder.locationreminders.data.dto.ReminderDTO).\n"
+          return new RoomOpenHelper.ValidationResult(false, "reminders(com.udacity.project4.locationreminders.data.dto.ReminderDTO).\n"
                   + " Expected:\n" + _infoReminders + "\n"
                   + " Found:\n" + _existingReminders);
         }

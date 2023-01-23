@@ -58,7 +58,10 @@ class AuthenticationActivity : AppCompatActivity() {
         )
 
         startActivityForResult(
-            AuthUI.getInstance().createSignInIntentBuilder().setAvailableProviders(providers).build(),
+            AuthUI.getInstance().createSignInIntentBuilder().setAvailableProviders(providers)
+                .setLogo(R.drawable.welcome)
+                .setTheme(R.style.ThemeOverlay_AppCompat_DayNight)
+                .build(),
             SIGN_IN_REQUEST_CODE
         )
     }
@@ -76,13 +79,6 @@ class AuthenticationActivity : AppCompatActivity() {
                             "${FirebaseAuth.getInstance().currentUser?.displayName}!"
                 )
                 startRemindersActivity()
-
-                // Successfully signed in
-//                val user = FirebaseAuth.getInstance().currentUser
-////                val intent = Intent(this, RemindersActivity::class.java).apply {
-////                    putExtra(EXTRA_MESSAGE, user)
-////                }
-
 
             } else {
                 // Sign in failed. If response is null the user canceled the sign-in flow using

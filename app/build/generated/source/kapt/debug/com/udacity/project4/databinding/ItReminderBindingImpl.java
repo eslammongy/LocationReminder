@@ -1,4 +1,5 @@
 package com.udacity.project4.databinding;
+import com.udacity.project4.R;
 import com.udacity.project4.BR;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -15,8 +16,6 @@ public class ItReminderBindingImpl extends ItReminderBinding  {
         sViewsWithIds = null;
     }
     // views
-    @NonNull
-    private final android.widget.TextView mboundView3;
     // variables
     // values
     // listeners
@@ -29,12 +28,12 @@ public class ItReminderBindingImpl extends ItReminderBinding  {
         super(bindingComponent, root, 0
             , (android.widget.TextView) bindings[2]
             , (androidx.cardview.widget.CardView) bindings[0]
+            , (android.widget.TextView) bindings[3]
             , (android.widget.TextView) bindings[1]
             );
         this.description.setTag(null);
-        this.mboundView3 = (android.widget.TextView) bindings[3];
-        this.mboundView3.setTag(null);
         this.reminderCardView.setTag(null);
+        this.textView2.setTag(null);
         this.title.setTag(null);
         setRootTag(root);
         // listeners
@@ -117,7 +116,7 @@ public class ItReminderBindingImpl extends ItReminderBinding  {
             // api target 1
 
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.description, itemDescription);
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView3, itemLocation);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.textView2, itemLocation);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.title, itemTitle);
         }
         if ((dirtyFlags & 0x2L) != 0) {
