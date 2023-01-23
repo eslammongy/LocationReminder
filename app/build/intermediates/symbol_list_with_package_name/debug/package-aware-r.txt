@@ -1,4 +1,4 @@
-com.eslammongy.locationreminder
+com.udacity.project4
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -2115,6 +2115,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
+id textView2
 id textWatcher
 id text_input_end_icon
 id text_input_start_icon

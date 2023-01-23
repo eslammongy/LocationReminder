@@ -13,6 +13,7 @@
         android:src="@drawable/maps_image"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
+        android:padding="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:contentDescription="@string/todo" />
@@ -24,6 +25,7 @@
         android:textColor="@color/black"
         android:textSize="@dimen/text_size_large"
         android:layout_margin="20dp"
+        android:textStyle="italic"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "applicationId": "com.eslammongy.locationreminder",
+  "applicationId": "com.udacity.project4",
   "variantType": "BASE_APK",
   "elements": [
     {
@@ -19,7 +19,7 @@
       },
       "path": "resources-debug.ap_",
       "properties": {
-        "packageId": "com.eslammongy.locationreminder",
+        "packageId": "com.udacity.project4",
         "split": "",
         "minSdkVersion": "21"
       }

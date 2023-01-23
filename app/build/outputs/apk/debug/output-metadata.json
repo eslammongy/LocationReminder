@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.eslammongy.locationreminder",
+  "applicationId": "com.udacity.project4",
   "variantName": "debug",
   "elements": [
     {
