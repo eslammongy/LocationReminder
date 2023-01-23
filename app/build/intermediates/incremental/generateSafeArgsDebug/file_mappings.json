@@ -1,1 +1,1 @@
-[{"navFile":"src\\main\\res\\navigation\\nav_graph.xml","javaFiles":["com.eslammongy.locationreminder.locationreminders.reminderslist.ReminderListFragmentDirections","com.eslammongy.locationreminder.locationreminders.savereminder.SaveReminderFragmentDirections"]}]
+[{"navFile":"src\\main\\res\\navigation\\nav_graph.xml","javaFiles":["com.udacity.project4.locationreminders.reminderslist.ReminderListFragmentDirections","com.udacity.project4.locationreminders.savereminder.SaveReminderFragmentDirections"]}]

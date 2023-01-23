@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "121803295213",
-    "project_id": "locations-reminders",
-    "storage_bucket": "locations-reminders.appspot.com"
+    "project_number": "990168609397",
+    "project_id": "locationreminder-551ac",
+    "storage_bucket": "locationreminder-551ac.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:121803295213:android:3295dbf00e7449bfac3fe4",
+        "mobilesdk_app_id": "1:990168609397:android:6bad547d620ec199da3e3c",
         "android_client_info": {
-          "package_name": "com.eslammongy.locationreminder"
+          "package_name": "com.udacity.project4"
         }
       },
       "oauth_client": [
         {
-          "client_id": "121803295213-lu7o4db18s2gu4g59qvh5j52b3ub2q3i.apps.googleusercontent.com",
+          "client_id": "990168609397-9je8fu26d6bghec21ssh7i4c257jsp0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.udacity.project4",
+            "certificate_hash": "66eb660562974f0999620cad42f527d7e60b4f91"
+          }
+        },
+        {
+          "client_id": "990168609397-rohb5fqhvle8985tq0qtck8k3o7v7cgc.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCJkhbL2c8x7rK8pcjDlJ1irkem02INPGw"
+          "current_key": "AIzaSyBKfP9e-Zhd4Y5pXKJTmkrPBDADy255gww"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "121803295213-lu7o4db18s2gu4g59qvh5j52b3ub2q3i.apps.googleusercontent.com",
+              "client_id": "990168609397-rohb5fqhvle8985tq0qtck8k3o7v7cgc.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

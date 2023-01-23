@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.eslammongy.locationreminder"
+    package="com.udacity.project4"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -21,7 +21,7 @@
         android:required="true" />
 
     <application
-        android:name="com.eslammongy.locationreminder.MyApp"
+        android:name="com.udacity.project4.MyApp"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -31,29 +31,29 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.eslammongy.locationreminder.locationreminders.ReminderDescriptionActivity" />
+        <activity android:name="com.udacity.project4.locationreminders.ReminderDescriptionActivity" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity android:name="com.eslammongy.locationreminder.authentication.AuthenticationActivity" >
+        <activity android:name="com.udacity.project4.authentication.AuthenticationActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.eslammongy.locationreminder.locationreminders.RemindersActivity" >
+        <activity android:name="com.udacity.project4.locationreminders.RemindersActivity" >
         </activity>
 
         <receiver
-            android:name="com.eslammongy.locationreminder.locationreminders.geofence.GeofenceBroadcastReceiver"
+            android:name="com.udacity.project4.locationreminders.geofence.GeofenceBroadcastReceiver"
             android:enabled="true"
             android:exported="true" />
 
         <service
-            android:name="com.eslammongy.locationreminder.locationreminders.geofence.GeofenceTransitionsJobIntentService"
+            android:name="com.udacity.project4.locationreminders.geofence.GeofenceTransitionsJobIntentService"
             android:exported="true"
             android:permission="android.permission.BIND_JOB_SERVICE" />
 
@@ -143,7 +143,7 @@
 
         <provider
             android:name="com.firebase.ui.auth.data.client.AuthUiInitProvider"
-            android:authorities="com.eslammongy.locationreminder.authuiinitprovider"
+            android:authorities="com.udacity.project4.authuiinitprovider"
             android:exported="false"
             android:initOrder="90" />
 
@@ -219,12 +219,12 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.eslammongy.locationreminder.firebaseinitprovider"
+            android:authorities="com.udacity.project4.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-            android:authorities="com.eslammongy.locationreminder.lifecycle-process"
+            android:authorities="com.udacity.project4.lifecycle-process"
             android:exported="false"
             android:multiprocess="true" />
 

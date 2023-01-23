@@ -94,7 +94,7 @@ INJECTED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\
 INJECTED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:2:1-48:12
 INJECTED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:2:1-48:12
 	package
-		ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:3:5-46
+		ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -188,21 +188,21 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\es
 	android:theme
 		ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:20:9-40
 	android:name
-		ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:14:9-30
-activity#com.eslammongy.locationreminder.locationreminders.ReminderDescriptionActivity
-ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:21:9-92
+		ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:14:9-50
+activity#com.udacity.project4.locationreminders.ReminderDescriptionActivity
+ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:21:9-112
 	android:name
-		ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:21:19-80
+		ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:21:19-100
 meta-data#com.google.android.geo.API_KEY
 ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:23:9-25:55
 	android:value
 		ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:25:13-52
 	android:name
 		ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:24:13-58
-activity#com.eslammongy.locationreminder.authentication.AuthenticationActivity
+activity#com.udacity.project4.authentication.AuthenticationActivity
 ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:27:9-33:20
 	android:name
-		ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:27:19-72
+		ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:27:19-92
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:28:13-32:29
 action#android.intent.action.MAIN
@@ -213,26 +213,26 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:31:17-77
 	android:name
 		ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:31:27-74
-activity#com.eslammongy.locationreminder.locationreminders.RemindersActivity
+activity#com.udacity.project4.locationreminders.RemindersActivity
 ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:35:9-37:20
 	android:name
-		ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:35:19-70
-receiver#com.eslammongy.locationreminder.locationreminders.geofence.GeofenceBroadcastReceiver
+		ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:35:19-90
+receiver#com.udacity.project4.locationreminders.geofence.GeofenceBroadcastReceiver
 ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:38:9-41:39
 	android:enabled
 		ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:40:13-35
 	android:exported
 		ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:41:13-36
 	android:name
-		ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:39:13-81
-service#com.eslammongy.locationreminder.locationreminders.geofence.GeofenceTransitionsJobIntentService
+		ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:39:13-101
+service#com.udacity.project4.locationreminders.geofence.GeofenceTransitionsJobIntentService
 ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:42:9-45:72
 	android:exported
 		ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:44:13-36
 	android:permission
 		ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:45:13-69
 	android:name
-		ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:43:13-91
+		ADDED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:43:13-111
 uses-sdk
 INJECTED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml
