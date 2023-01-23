@@ -1,0 +1,442 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.eslammongy.locationreminder"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:5:22-76
+12    <!-- The BACKGROUND_LOCATION permission is required for geofencing functionality to work on Q+ -->
+13    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+13-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:7:5-85
+13-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:7:22-82
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:9:5-67
+14-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:9:22-64
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:11:5-68
+15-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:11:22-65
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:12:5-79
+16-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:12:22-76
+17    <uses-permission android:name="android.permission.REORDER_TASKS" />
+17-->[androidx.fragment:fragment-testing:1.1.0-alpha07] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\0e49531d020f40be913b3e3576a22ce2\jetified-fragment-testing-1.1.0-alpha07\AndroidManifest.xml:24:5-72
+17-->[androidx.fragment:fragment-testing:1.1.0-alpha07] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\0e49531d020f40be913b3e3576a22ce2\jetified-fragment-testing-1.1.0-alpha07\AndroidManifest.xml:24:22-69
+18
+19    <uses-feature
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\b5c93cbd68a2c0a6b79bd70a69511c6a\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+20        android:glEsVersion="0x00020000"
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\b5c93cbd68a2c0a6b79bd70a69511c6a\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+21        android:required="true" />
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\b5c93cbd68a2c0a6b79bd70a69511c6a\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+22
+23    <application
+23-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:13:5-46:19
+24        android:name="com.eslammongy.locationreminder.MyApp"
+24-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:14:9-30
+25        android:allowBackup="true"
+25-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:15:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.3.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\2a63cf0afc13cf00827d31dba2b78ebc\core-1.3.0\AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:16:9-43
+29        android:label="@string/app_name"
+29-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:17:9-41
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:18:9-54
+31        android:supportsRtl="true"
+31-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:19:9-35
+32        android:testOnly="true"
+33        android:theme="@style/AppTheme" >
+33-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:20:9-40
+34        <activity android:name="com.eslammongy.locationreminder.locationreminders.ReminderDescriptionActivity" />
+34-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:21:9-92
+34-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:21:19-80
+35
+36        <meta-data
+36-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:23:9-25:55
+37            android:name="com.google.android.geo.API_KEY"
+37-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:24:13-58
+38            android:value="@string/google_maps_key" />
+38-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:25:13-52
+39
+40        <activity android:name="com.eslammongy.locationreminder.authentication.AuthenticationActivity" >
+40-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:27:9-33:20
+40-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:27:19-72
+41            <intent-filter>
+41-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:28:13-32:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:29:17-69
+42-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:29:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:31:17-77
+44-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:31:27-74
+45            </intent-filter>
+46        </activity>
+47        <activity android:name="com.eslammongy.locationreminder.locationreminders.RemindersActivity" >
+47-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:35:9-37:20
+47-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:35:19-70
+48        </activity>
+49
+50        <receiver
+50-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:38:9-41:39
+51            android:name="com.eslammongy.locationreminder.locationreminders.geofence.GeofenceBroadcastReceiver"
+51-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:39:13-81
+52            android:enabled="true"
+52-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:40:13-35
+53            android:exported="true" />
+53-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:41:13-36
+54
+55        <service
+55-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:42:9-45:72
+56            android:name="com.eslammongy.locationreminder.locationreminders.geofence.GeofenceTransitionsJobIntentService"
+56-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:43:13-91
+57            android:exported="true"
+57-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:44:13-36
+58            android:permission="android.permission.BIND_JOB_SERVICE" />
+58-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:45:13-69
+59
+60        <meta-data
+60-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:16:9-18:69
+61            android:name="com.google.android.gms.version"
+61-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:17:13-58
+62            android:value="@integer/google_play_services_version" />
+62-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:18:13-66
+63        <meta-data
+63-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:19:9-21:63
+64            android:name="com.facebook.sdk.ApplicationId"
+64-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:20:13-58
+65            android:value="@string/facebook_application_id" />
+65-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:21:13-60
+66
+67        <activity
+67-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:23:9-27:61
+68            android:name="com.firebase.ui.auth.KickoffActivity"
+68-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:24:13-64
+69            android:exported="false"
+69-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:25:13-37
+70            android:label=""
+70-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:26:13-29
+71            android:theme="@style/FirebaseUI.Transparent" />
+71-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:27:13-58
+72        <activity
+72-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:28:9-32:61
+73            android:name="com.firebase.ui.auth.ui.idp.SingleSignInActivity"
+73-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:29:13-76
+74            android:exported="false"
+74-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:30:13-37
+75            android:label=""
+75-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:31:13-29
+76            android:theme="@style/FirebaseUI.Transparent" />
+76-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:32:13-58
+77        <activity
+77-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:33:9-37:61
+78            android:name="com.firebase.ui.auth.ui.credentials.CredentialSaveActivity"
+78-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:34:13-86
+79            android:exported="false"
+79-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:35:13-37
+80            android:label=""
+80-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:36:13-29
+81            android:theme="@style/FirebaseUI.Transparent" />
+81-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:37:13-58
+82        <activity
+82-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:38:9-42:58
+83            android:name="com.firebase.ui.auth.ui.email.RecoverPasswordActivity"
+83-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:39:13-81
+84            android:exported="false"
+84-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:40:13-37
+85            android:label="@string/fui_title_recover_password_activity"
+85-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:41:13-72
+86            android:windowSoftInputMode="adjustResize" />
+86-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:42:13-55
+87        <activity
+87-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:43:9-47:58
+88            android:name="com.firebase.ui.auth.ui.email.EmailActivity"
+88-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:44:13-71
+89            android:exported="false"
+89-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:45:13-37
+90            android:label="@string/fui_sign_in_default"
+90-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:46:13-56
+91            android:windowSoftInputMode="adjustResize" />
+91-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:47:13-55
+92        <activity
+92-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:48:9-52:77
+93            android:name="com.firebase.ui.auth.ui.phone.PhoneActivity"
+93-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:49:13-71
+94            android:exported="false"
+94-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:50:13-37
+95            android:label="@string/fui_sign_in_with_phone_number"
+95-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:51:13-66
+96            android:windowSoftInputMode="adjustResize|stateAlwaysVisible" />
+96-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:52:13-74
+97        <activity
+97-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:53:9-57:58
+98            android:name="com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt"
+98-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:54:13-76
+99            android:exported="false"
+99-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:55:13-37
+100            android:label="@string/fui_title_welcome_back_idp_prompt"
+100-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:56:13-70
+101            android:windowSoftInputMode="adjustResize" />
+101-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:57:13-55
+102        <activity
+102-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:58:9-62:58
+103            android:name="com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt"
+103-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:59:13-83
+104            android:exported="false"
+104-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:60:13-37
+105            android:label="@string/fui_title_welcome_back_password_prompt"
+105-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:61:13-75
+106            android:windowSoftInputMode="adjustResize" />
+106-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:62:13-55
+107        <activity
+107-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:63:9-67:58
+108            android:name="com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt"
+108-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:64:13-84
+109            android:exported="false"
+109-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:65:13-37
+110            android:label="@string/fui_title_welcome_back_password_prompt"
+110-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:66:13-75
+111            android:windowSoftInputMode="adjustResize" />
+111-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:67:13-55
+112        <activity
+112-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:68:9-73:58
+113            android:name="com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity"
+113-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:69:13-82
+114            android:exported="false"
+114-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:70:13-37
+115            android:label=""
+115-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:71:13-29
+116            android:theme="@style/FirebaseUI.Transparent"
+116-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:72:13-58
+117            android:windowSoftInputMode="adjustResize" />
+117-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:73:13-55
+118        <activity
+118-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:74:9-78:58
+119            android:name="com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity"
+119-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:75:13-88
+120            android:exported="false"
+120-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:76:13-37
+121            android:label="@string/fui_sign_in_default"
+121-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:77:13-56
+122            android:windowSoftInputMode="adjustResize" />
+122-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:78:13-55
+123        <activity
+123-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:79:9-82:65
+124            android:name="com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity"
+124-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:80:13-80
+125            android:exported="false"
+125-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:81:13-37
+126            android:label="@string/fui_default_toolbar_title" />
+126-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:82:13-62
+127        <activity
+127-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:83:9-87:48
+128            android:name="com.facebook.FacebookActivity"
+128-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:84:13-57
+129            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+129-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:85:13-96
+130            android:label="@string/app_name" />
+130-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:86:13-45
+131        <activity
+131-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:88:9-100:20
+132            android:name="com.facebook.CustomTabActivity"
+132-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:89:13-58
+133            android:exported="true" >
+133-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:90:13-36
+134            <intent-filter>
+134-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:92:13-99:29
+135                <action android:name="android.intent.action.VIEW" />
+135-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:93:17-69
+135-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:93:25-66
+136
+137                <category android:name="android.intent.category.DEFAULT" />
+137-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:95:17-76
+137-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:95:27-73
+138                <category android:name="android.intent.category.BROWSABLE" />
+138-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:96:17-78
+138-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:96:27-75
+139
+140                <data android:scheme="@string/facebook_login_protocol_scheme" />
+140-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:98:17-81
+140-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:98:23-78
+141            </intent-filter>
+142        </activity>
+143
+144        <provider
+144-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:102:9-106:38
+145            android:name="com.firebase.ui.auth.data.client.AuthUiInitProvider"
+145-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:103:13-79
+146            android:authorities="com.eslammongy.locationreminder.authuiinitprovider"
+146-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:104:13-70
+147            android:exported="false"
+147-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:105:13-37
+148            android:initOrder="90" />
+148-->[com.firebaseui:firebase-ui-auth:5.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\8ac9cf5e38be62219dd0fae06d735842\jetified-firebase-ui-auth-5.0.0\AndroidManifest.xml:106:13-35
+149
+150        <activity
+150-->[androidx.fragment:fragment-testing:1.1.0-alpha07] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\0e49531d020f40be913b3e3576a22ce2\jetified-fragment-testing-1.1.0-alpha07\AndroidManifest.xml:27:9-36:20
+151            android:name="androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity"
+151-->[androidx.fragment:fragment-testing:1.1.0-alpha07] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\0e49531d020f40be913b3e3576a22ce2\jetified-fragment-testing-1.1.0-alpha07\AndroidManifest.xml:28:13-96
+152            android:exported="true"
+152-->[androidx.fragment:fragment-testing:1.1.0-alpha07] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\0e49531d020f40be913b3e3576a22ce2\jetified-fragment-testing-1.1.0-alpha07\AndroidManifest.xml:29:13-36
+153            android:multiprocess="true"
+153-->[androidx.fragment:fragment-testing:1.1.0-alpha07] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\0e49531d020f40be913b3e3576a22ce2\jetified-fragment-testing-1.1.0-alpha07\AndroidManifest.xml:30:13-40
+154            android:taskAffinity=""
+154-->[androidx.fragment:fragment-testing:1.1.0-alpha07] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\0e49531d020f40be913b3e3576a22ce2\jetified-fragment-testing-1.1.0-alpha07\AndroidManifest.xml:31:13-36
+155            android:theme="@style/FragmentScenarioEmptyFragmentActivityTheme" >
+155-->[androidx.fragment:fragment-testing:1.1.0-alpha07] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\0e49531d020f40be913b3e3576a22ce2\jetified-fragment-testing-1.1.0-alpha07\AndroidManifest.xml:32:13-78
+156            <intent-filter>
+156-->[androidx.fragment:fragment-testing:1.1.0-alpha07] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\0e49531d020f40be913b3e3576a22ce2\jetified-fragment-testing-1.1.0-alpha07\AndroidManifest.xml:33:13-35:29
+157                <action android:name="android.intent.action.MAIN" />
+157-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:29:17-69
+157-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:29:25-66
+158            </intent-filter>
+159        </activity>
+160        <activity
+160-->[androidx.test:core:1.2.0-beta01] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\b8bde50a7fc23614f1bfe05bfa2fc573\jetified-core-1.2.0-beta01\AndroidManifest.xml:27:9-33:20
+161            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+161-->[androidx.test:core:1.2.0-beta01] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\b8bde50a7fc23614f1bfe05bfa2fc573\jetified-core-1.2.0-beta01\AndroidManifest.xml:28:13-99
+162            android:theme="@android:style/Theme" >
+162-->[androidx.test:core:1.2.0-beta01] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\b8bde50a7fc23614f1bfe05bfa2fc573\jetified-core-1.2.0-beta01\AndroidManifest.xml:29:13-49
+163            <intent-filter>
+163-->[androidx.fragment:fragment-testing:1.1.0-alpha07] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\0e49531d020f40be913b3e3576a22ce2\jetified-fragment-testing-1.1.0-alpha07\AndroidManifest.xml:33:13-35:29
+164                <action android:name="android.intent.action.MAIN" />
+164-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:29:17-69
+164-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:29:25-66
+165            </intent-filter>
+166        </activity>
+167        <activity
+167-->[androidx.test:core:1.2.0-beta01] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\b8bde50a7fc23614f1bfe05bfa2fc573\jetified-core-1.2.0-beta01\AndroidManifest.xml:34:9-40:20
+168            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+168-->[androidx.test:core:1.2.0-beta01] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\b8bde50a7fc23614f1bfe05bfa2fc573\jetified-core-1.2.0-beta01\AndroidManifest.xml:35:13-95
+169            android:theme="@android:style/Theme" >
+169-->[androidx.test:core:1.2.0-beta01] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\b8bde50a7fc23614f1bfe05bfa2fc573\jetified-core-1.2.0-beta01\AndroidManifest.xml:36:13-49
+170            <intent-filter>
+170-->[androidx.fragment:fragment-testing:1.1.0-alpha07] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\0e49531d020f40be913b3e3576a22ce2\jetified-fragment-testing-1.1.0-alpha07\AndroidManifest.xml:33:13-35:29
+171                <action android:name="android.intent.action.MAIN" />
+171-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:29:17-69
+171-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:29:25-66
+172            </intent-filter>
+173        </activity>
+174        <activity
+174-->[androidx.test:core:1.2.0-beta01] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\b8bde50a7fc23614f1bfe05bfa2fc573\jetified-core-1.2.0-beta01\AndroidManifest.xml:41:9-47:20
+175            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+175-->[androidx.test:core:1.2.0-beta01] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\b8bde50a7fc23614f1bfe05bfa2fc573\jetified-core-1.2.0-beta01\AndroidManifest.xml:42:13-103
+176            android:theme="@android:style/Theme.Dialog" >
+176-->[androidx.test:core:1.2.0-beta01] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\b8bde50a7fc23614f1bfe05bfa2fc573\jetified-core-1.2.0-beta01\AndroidManifest.xml:43:13-56
+177            <intent-filter>
+177-->[androidx.fragment:fragment-testing:1.1.0-alpha07] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\0e49531d020f40be913b3e3576a22ce2\jetified-fragment-testing-1.1.0-alpha07\AndroidManifest.xml:33:13-35:29
+178                <action android:name="android.intent.action.MAIN" />
+178-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:29:17-69
+178-->C:\Users\eslam\Downloads\pc\flutter_apps\LocationReminder\app\src\main\AndroidManifest.xml:29:25-66
+179            </intent-filter>
+180        </activity> <!-- Needs to be explicitly declared on P+ -->
+181        <uses-library
+181-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\b5c93cbd68a2c0a6b79bd70a69511c6a\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+182            android:name="org.apache.http.legacy"
+182-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\b5c93cbd68a2c0a6b79bd70a69511c6a\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+183            android:required="false" />
+183-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\b5c93cbd68a2c0a6b79bd70a69511c6a\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+184
+185        <activity
+185-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\642ccac0f173cbe6db890994c46b3d04\jetified-firebase-auth-17.0.0\AndroidManifest.xml:24:9-31:50
+186            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+186-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\642ccac0f173cbe6db890994c46b3d04\jetified-firebase-auth-17.0.0\AndroidManifest.xml:25:13-85
+187            android:excludeFromRecents="true"
+187-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\642ccac0f173cbe6db890994c46b3d04\jetified-firebase-auth-17.0.0\AndroidManifest.xml:26:13-46
+188            android:exported="true"
+188-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\642ccac0f173cbe6db890994c46b3d04\jetified-firebase-auth-17.0.0\AndroidManifest.xml:27:13-36
+189            android:launchMode="singleTask"
+189-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\642ccac0f173cbe6db890994c46b3d04\jetified-firebase-auth-17.0.0\AndroidManifest.xml:28:13-44
+190            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+190-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\642ccac0f173cbe6db890994c46b3d04\jetified-firebase-auth-17.0.0\AndroidManifest.xml:29:13-102
+191            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+191-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\642ccac0f173cbe6db890994c46b3d04\jetified-firebase-auth-17.0.0\AndroidManifest.xml:30:13-72
+192
+193        <service
+193-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\642ccac0f173cbe6db890994c46b3d04\jetified-firebase-auth-17.0.0\AndroidManifest.xml:33:9-39:19
+194            android:name="com.google.firebase.components.ComponentDiscoveryService"
+194-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\642ccac0f173cbe6db890994c46b3d04\jetified-firebase-auth-17.0.0\AndroidManifest.xml:34:13-84
+195            android:exported="false" >
+195-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\642ccac0f173cbe6db890994c46b3d04\jetified-firebase-auth-17.0.0\AndroidManifest.xml:35:13-37
+196            <meta-data
+196-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\642ccac0f173cbe6db890994c46b3d04\jetified-firebase-auth-17.0.0\AndroidManifest.xml:36:13-38:85
+197                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+197-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\642ccac0f173cbe6db890994c46b3d04\jetified-firebase-auth-17.0.0\AndroidManifest.xml:37:17-109
+198                android:value="com.google.firebase.components.ComponentRegistrar" />
+198-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\642ccac0f173cbe6db890994c46b3d04\jetified-firebase-auth-17.0.0\AndroidManifest.xml:38:17-82
+199        </service>
+200
+201        <activity
+201-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\a415c9fc6f47f1bdba33a901e9efefb3\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+202            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+202-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\a415c9fc6f47f1bdba33a901e9efefb3\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+203            android:excludeFromRecents="true"
+203-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\a415c9fc6f47f1bdba33a901e9efefb3\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+204            android:exported="false"
+204-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\a415c9fc6f47f1bdba33a901e9efefb3\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+205            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+205-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\a415c9fc6f47f1bdba33a901e9efefb3\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+206        <!--
+207            Service handling Google Sign-In user revocation. For apps that do not integrate with
+208            Google Sign-In, this service will never be started.
+209        -->
+210        <service
+210-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\a415c9fc6f47f1bdba33a901e9efefb3\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+211            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+211-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\a415c9fc6f47f1bdba33a901e9efefb3\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+212            android:exported="true"
+212-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\a415c9fc6f47f1bdba33a901e9efefb3\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+213            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+213-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\a415c9fc6f47f1bdba33a901e9efefb3\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+214
+215        <activity
+215-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\6448870f4ad742a5880dedb528cf5a12\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+216            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+216-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\6448870f4ad742a5880dedb528cf5a12\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+217            android:exported="false"
+217-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\6448870f4ad742a5880dedb528cf5a12\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+218            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+218-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\6448870f4ad742a5880dedb528cf5a12\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+219
+220        <provider
+220-->[com.google.firebase:firebase-common:17.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\6c6559e9df49387dfeb3626e180d3e5b\jetified-firebase-common-17.0.0\AndroidManifest.xml:12:9-16:39
+221            android:name="com.google.firebase.provider.FirebaseInitProvider"
+221-->[com.google.firebase:firebase-common:17.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\6c6559e9df49387dfeb3626e180d3e5b\jetified-firebase-common-17.0.0\AndroidManifest.xml:13:13-77
+222            android:authorities="com.eslammongy.locationreminder.firebaseinitprovider"
+222-->[com.google.firebase:firebase-common:17.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\6c6559e9df49387dfeb3626e180d3e5b\jetified-firebase-common-17.0.0\AndroidManifest.xml:14:13-72
+223            android:exported="false"
+223-->[com.google.firebase:firebase-common:17.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\6c6559e9df49387dfeb3626e180d3e5b\jetified-firebase-common-17.0.0\AndroidManifest.xml:15:13-37
+224            android:initOrder="100" />
+224-->[com.google.firebase:firebase-common:17.0.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\6c6559e9df49387dfeb3626e180d3e5b\jetified-firebase-common-17.0.0\AndroidManifest.xml:16:13-36
+225        <provider
+225-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\9bd85778c1f81963aa1275f3890a50ba\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+226            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+226-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\9bd85778c1f81963aa1275f3890a50ba\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+227            android:authorities="com.eslammongy.locationreminder.lifecycle-process"
+227-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\9bd85778c1f81963aa1275f3890a50ba\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+228            android:exported="false"
+228-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\9bd85778c1f81963aa1275f3890a50ba\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+229            android:multiprocess="true" />
+229-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\9bd85778c1f81963aa1275f3890a50ba\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+230
+231        <service
+231-->[androidx.room:room-runtime:2.2.5] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\b91a28af4e7b8322ce768e9e51c3c61b\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+232            android:name="androidx.room.MultiInstanceInvalidationService"
+232-->[androidx.room:room-runtime:2.2.5] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\b91a28af4e7b8322ce768e9e51c3c61b\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+233            android:directBootAware="true"
+233-->[androidx.room:room-runtime:2.2.5] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\b91a28af4e7b8322ce768e9e51c3c61b\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+234            android:exported="false" />
+234-->[androidx.room:room-runtime:2.2.5] C:\Users\eslam\.gradle\caches\transforms-2\files-2.1\b91a28af4e7b8322ce768e9e51c3c61b\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+235    </application>
+236
+237</manifest>

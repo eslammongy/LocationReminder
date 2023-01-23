@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "121803295213",
+    "project_id": "locations-reminders",
+    "storage_bucket": "locations-reminders.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121803295213:android:3295dbf00e7449bfac3fe4",
+        "android_client_info": {
+          "package_name": "com.eslammongy.locationreminder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121803295213-lu7o4db18s2gu4g59qvh5j52b3ub2q3i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJkhbL2c8x7rK8pcjDlJ1irkem02INPGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121803295213-lu7o4db18s2gu4g59qvh5j52b3ub2q3i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

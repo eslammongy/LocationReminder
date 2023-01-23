@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">121803295213-lu7o4db18s2gu4g59qvh5j52b3ub2q3i.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">121803295213</string>
+    <string name="google_api_key" translatable="false">AIzaSyCJkhbL2c8x7rK8pcjDlJ1irkem02INPGw</string>
+    <string name="google_app_id" translatable="false">1:121803295213:android:3295dbf00e7449bfac3fe4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCJkhbL2c8x7rK8pcjDlJ1irkem02INPGw</string>
+    <string name="google_storage_bucket" translatable="false">locations-reminders.appspot.com</string>
+    <string name="project_id" translatable="false">locations-reminders</string>
+</resources>

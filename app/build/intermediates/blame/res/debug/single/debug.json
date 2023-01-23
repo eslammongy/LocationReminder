@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_map.jpg.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\drawable\\map.jpg"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\raw_map_style.json.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\raw\\map_style.json"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_authentication.xml.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\layout\\activity_authentication.xml"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\layout_it_reminder.xml.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\layout\\it_reminder.xml"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_welcome.png.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\drawable\\welcome.png"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\menu_map_options.xml.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\menu\\map_options.xml"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_location.xml.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\drawable\\ic_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\menu_main_menu.xml.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\menu\\main_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_reminder_description.xml.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\layout\\activity_reminder_description.xml"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_save_reminder.xml.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\layout\\fragment_save_reminder.xml"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_reminders.xml.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\layout\\activity_reminders.xml"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_empty_box.png.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\drawable\\empty_box.png"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pin.png.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\drawable\\pin.png"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_no_data.xml.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\drawable\\ic_no_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_input_background.xml.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\drawable\\input_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_maps_image.png.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\drawable\\maps_image.png"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_select_location.xml.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\layout\\fragment_select_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_location.png.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\drawable\\location.png"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_save.xml.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\drawable\\ic_save.xml"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_reminders.xml.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\layout\\fragment_reminders.xml"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_round_add_circle_24.xml.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\drawable\\ic_round_add_circle_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_background.xml.flat",
+        "source": "C:\\Users\\eslam\\Downloads\\pc\\flutter_apps\\LocationReminder\\app\\src\\main\\res\\drawable\\button_background.xml"
+    }
+]
