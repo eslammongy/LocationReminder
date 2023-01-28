@@ -1,4 +1,5 @@
 # Android NanoDegree Location Reminders
+please give repo star. if find repo useful for you
 
 ![](screenshots/Screenshot_20230123_132642.png)
 ![](screenshots/Screenshot_20230123_132653.png)
